@@ -1,0 +1,49 @@
+# ~/.config/starship.toml
+
+# Prompt symbol
+[character]
+symbol = "➜ "
+error_symbol = "✗ "
+
+# Username display
+[username]
+show_always = false
+
+# Directory info
+[directory]
+truncation_length = 3
+style = "cyan"
+
+# Git info
+[git_branch]
+symbol = "🌿 "
+style = "green"
+
+[git_status]
+conflicted = "≠"
+ahead = "⇡"
+behind = "⇣"
+staged = "●"
+modified = "✚"
+untracked = "…"
+style = "yellow"
+
+# Node.js version
+[nodejs]
+symbol = "⬢ "
+style = "green"
+
+# Python version
+[python]
+symbol = "🐍 "
+style = "yellow"
+
+# Rust version
+[rust]
+symbol = "🦀 "
+style = "red"
+
+# Time module
+[time]
+format = "🕒 %H:%M:%S"
+style = "bright-black"
