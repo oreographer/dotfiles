@@ -1,0 +1,9 @@
+{"mouse_wheel_zoom": true, "base_keymap": "Zed", "icon_theme": {
+    "mode": "dark",
+    "light": "Zed (Default)",
+    "dark": "Zed (Default)"
+  }, "theme": {
+    "mode": "dark",
+    "light": "One Light",
+    "dark": "One Dark"
+  }}
