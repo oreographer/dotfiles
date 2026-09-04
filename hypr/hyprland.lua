@@ -22,9 +22,16 @@ require("hypr.bindings")
 require("hypr.looknfeel")
 require("hypr.autostart")
 
-
 -- Toggle config flags dynamically.
 require("default.hypr.toggles")
 
 -- Add any other personal Hyprland configuration below.
 -- o.window("qemu", { workspace = "5" })
+
+-- Blur Omarchy top bar
+hl.layer_rule({
+    name = "omarchy-bar-blur",
+    match = { namespace = "^omarchy-bar$" },
+    blur = true,
+    blur_popups = true,
+})
