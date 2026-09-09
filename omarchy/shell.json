@@ -36,19 +36,19 @@
         },
         {
           "id": "crmne.mpris",
+          "adaptiveLayout": false,
           "albumArtSize": 20,
-          "adaptiveLayout": true,
-          "showControls": true,
+          "maxCharacters": 25,
+          "maxLabelWidth": 200,
           "showAlbumArt": true,
           "showArtist": true,
-          "maxCharacters": 70,
-          "maxLabelWidth": 200
-        },
-        {
-          "id": "ssupt.audio-control"
+          "showControls": true
         },
         {
           "id": "omarchy.agents"
+        },
+        {
+          "id": "ssupt.audio-control"
         },
         {
           "id": "omarchy.bluetooth"

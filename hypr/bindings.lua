@@ -49,12 +49,13 @@ o.bind("SUPER + I", "Omarchy Clock", "omarchy-shell shell toggle omarchy.clock")
 -- Scrolling layout
 o.bind("SUPER + L", "Scrolling layout", "omarchy-hyprland-workspace-layout-toggle")
 
--- English OCR + Hindi
+-- English + Hindi OCR
 hl.unbind("SUPER + CTRL + O")
+
 o.bind(
   "SUPER + CTRL + O",
   "Hindi + English OCR",
-  "grim -g \"$(slurp)\" - | tesseract stdin stdout -l eng+hin --psm 6 | wl-copy && notify-send '󰴑  Copied text from selection to clipboard'"
+  [[bash -c 'grim -g "$(slurp)" - | tesseract stdin stdout -l eng+hin --psm 6 | wl-copy && notify-send "󰴑 Copied text"' ]]
 )
 
 -- Google Lens: Image Search
