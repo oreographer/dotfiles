@@ -16,11 +16,12 @@ hl.config({
    },
 })
 
+-- To add blur
 hl.config({
   decoration = {
     blur = {
-      enabled = true,
-      size = 6,
+      enabled = false,
+      size = 4,
       passes = 2,
       new_optimizations = true,
     },
@@ -50,3 +51,8 @@ hl.config({
 --     column_width = 0.97,
 --   },
 -- })
+
+-- Make all default windows fully opaque
+o.window({ tag = "default-opacity" }, {
+    opacity = "1.0 1.0",
+})

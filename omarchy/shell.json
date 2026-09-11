@@ -32,9 +32,6 @@
       ],
       "right": [
         {
-          "id": "omarchy.tray"
-        },
-        {
           "id": "crmne.mpris",
           "adaptiveLayout": false,
           "albumArtSize": 20,
@@ -45,13 +42,19 @@
           "showControls": true
         },
         {
-          "id": "omarchy.agents"
+          "id": "omarchy.tray"
         },
         {
           "id": "ssupt.audio-control"
         },
         {
+          "id": "omarchy.agents"
+        },
+        {
           "id": "omarchy.bluetooth"
+        },
+        {
+          "id": "omarchy.audio"
         },
         {
           "id": "omarchy.network"
@@ -71,13 +74,13 @@
   "cloneSourceRestores": [
     "ssupt.audio-control"
   ],
-  "disabledPlugins": [
-    "omarchy.audio"
-  ],
   "idle": {
     "lock": 300,
     "screensaver": 150
   },
   "plugins": [],
-  "version": 1
+  "version": 1,
+  "disabledPlugins": [
+    "omarchy.audio"
+  ]
 }
